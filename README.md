@@ -1,5 +1,5 @@
 # BaseDropper
-A shell script to turn files into base64 strings to drop onto Windows systems via PowerShell using a badusb script.
+A bash script to turn files into base64 strings to drop onto Windows systems via PowerShell using a badusb script.
 
 
 Depending on the size of your source file, this is highly impractical.  I created it just to see if I could.  The initial script generation is rather quick, however, badusb typing all the base64 into PowerShell to drop the file to disk will take an exceedingly long time for this to be a plausible attack if your source file is more than a few kb.
